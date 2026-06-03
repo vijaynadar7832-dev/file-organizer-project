@@ -17,7 +17,7 @@ for filename in os.listdir(current_dir):
         folder_name = 'Documents'
     elif file_ext in ['zip', 'rar', '7z', 'iso']:
         folder_name = 'Archives_and_Data'
-    elif file_ext in ['py', 'sh', 'html', 'htm', 'css', 'js', 'php', 'java', 'cpp', 'c']:
+    elif file_ext in ['py', 'sh', 'html', 'htm', 'css', 'js', 'php', 'java', 'cpp', 'c', 'json']:
         folder_name = 'Programming_and_Scripts'
     elif file_ext in ['exe', 'dll', 'sys', 'bat', 'cfg', 'ini']:
         folder_name = 'System_and_Executables'
