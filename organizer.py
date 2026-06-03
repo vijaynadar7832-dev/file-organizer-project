@@ -12,15 +12,15 @@ for filename in os.listdir(current_dir):
     if file_ext in ['jpg', 'jpeg', 'png', 'gif', 'svg', 'psd']:
         folder_name = 'Images'
     elif file_ext in ['mp4', 'mov', 'avi', 'mp3', 'wav']:
-        folder_name = 'Audio_and_Video'
+        folder_name = 'Audio & Video'
     elif file_ext in ['txt', 'pdf', 'docx']:
         folder_name = 'Documents'
     elif file_ext in ['zip', 'rar', '7z', 'iso']:
-        folder_name = 'Archives_and_Data'
+        folder_name = 'Archives & Data'
     elif file_ext in ['py', 'sh', 'html', 'htm', 'css', 'js', 'php', 'java', 'cpp', 'c', 'json']:
-        folder_name = 'Programming_and_Scripts'
+        folder_name = 'Programming & Scripts'
     elif file_ext in ['exe', 'dll', 'sys', 'bat', 'cfg', 'ini']:
-        folder_name = 'System_and_Executables'
+        folder_name = 'System & Executables'
     else:
         folder_name = 'others'
 
