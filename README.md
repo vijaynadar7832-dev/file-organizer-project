@@ -52,7 +52,7 @@ The script intelligently parses and organizes files into seven distinct categori
 
 ### 1. Clone the Code Base
 ```bash
-git clone https://github.com
+git clone https://github.com/vijaynadar7832-dev/file-organizer-project
 cd YOUR_REPOSITORY_NAME
 ```
 
